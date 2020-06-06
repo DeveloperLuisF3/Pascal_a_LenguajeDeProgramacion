@@ -1,14 +1,14 @@
 # Pascal_a_LenguajeDeProgramacion
-##Fundamentos del lenguaje de programaci贸n Pascal (Free Pascal)
+## Fundamentos del lenguaje de programaci贸n Pascal (Free Pascal)
 
-Pascal es un lenguaje de programaci髇 muy vers醫il y sus caracter韘ticas son adecuadas para empezar a formarse como programador.
+Pascal es un lenguaje de programaci贸n muy vers谩til y sus caracter铆sticas son adecuadas para empezar a formarse como programador.
 
-###CONTENIDO
-** 1. Introducci髇 **
-** 2. Estructura de un programa en Pascal **
-** 3. Partes de la zona de declaraciones **
-** 4. Rutinas de entrada o de salida **
-** 5. Operadores **
-** 6. Funciones internas **
-** 7. Estructuras de programaci髇 **
-** 8. M骴ulos **
+### CONTENIDO
+1. Introducci贸n 
+2. Estructura de un programa en Pascal 
+3. Partes de la zona de declaraciones
+4. Rutinas de entrada o de salida
+5. Operadores
+6. Funciones internas
+7. Estructuras de programaci贸n
+8. M贸dulos
