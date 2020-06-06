@@ -3,6 +3,7 @@
 
 Pascal es un lenguaje de programación muy versátil y sus características son adecuadas para empezar a formarse como programador.
 
+
 ### CONTENIDO
 1. Introducción 
 2. Estructura de un programa en Pascal 
