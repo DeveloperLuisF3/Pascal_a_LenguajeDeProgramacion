@@ -47,14 +47,14 @@ En Pascal también es posible poner comentarios usando los siguientes simbolos: 
 A continuación un ejemplo de un programa con comentarios:
 
 
-``` c#
-    Program Saludo;
+```pascal
+Program Saludo;
 
-    Begin
-        { esto es un comentario }
-        Write ('HOLA');
-        (* esto también es un comentario *)
-    End.
+Begin
+    { esto es un comentario }
+    Write ('HOLA');
+    (* esto también es un comentario *)
+End.
 ```
 
 Este programa sólo imprimirá HOLA. Las líneas que dicen ser comentarios serán ignoradas. 
