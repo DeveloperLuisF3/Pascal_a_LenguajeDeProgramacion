@@ -8,6 +8,8 @@ Sin embargo dichas instrucciones y especificaciones deben ser colocadas en lugar
 2. Zona de declaraciones.
 3. Cuerpo del módulo.
 
+### Ejemplo:
+
 
 ```javascript 
     //Palabra reservada = PROGRAM
@@ -25,4 +27,6 @@ Sin embargo dichas instrucciones y especificaciones deben ser colocadas en lugar
         C := A + B;
         Write ('La suma es: ', C);
     End
-```              
+```         
+
+La ** zona de encabezado ** es la primera línea del programa y en ella se indica el nombre o título del programa; la primera palabra debe ser ** PROGRAM ** seguida de un espacio y un identificador (nombre del programa) que no contenga espacios ni acentos: La línea debe terminar con ** ; ** (punto y coma).
