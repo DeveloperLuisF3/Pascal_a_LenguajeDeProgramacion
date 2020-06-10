@@ -9,7 +9,7 @@ Sin embargo dichas instrucciones y especificaciones deben ser colocadas en lugar
 3. Cuerpo del módulo.
 
 
-|           Palabra reservada = PROGRAM                                 |
+|           Palabra reservada = PROGRAM br                              |
 |           Nombre del programa = Sumar_Numeros                         |
 |-----------------------------------------------------------------------|
 |   Program Sumar_Numeros;                          |                   |                  
@@ -31,7 +31,7 @@ Sin embargo dichas instrucciones y especificaciones deben ser colocadas en lugar
     //Nombre del programa = Sumar_Numeros
 
     Program Sumar_Numeros;  //Zona de Encabezado
-    {Este programa pide al usuario dos números, los suma e imprime el resultado}
+    { Este programa pide al usuario dos números, los suma e imprime el resultado}
 
     Var
         A, B, C: Integer;   //Zona de Declaraciones
