@@ -11,7 +11,7 @@ Sin embargo dichas instrucciones y especificaciones deben ser colocadas en lugar
 ### Ejemplo:
 
 
-```java
+```c#
     //Palabra reservada = PROGRAM
     //Nombre del programa = Sumar_Numeros
 
@@ -47,7 +47,7 @@ En Pascal también es posible poner comentarios usando los siguientes simbolos: 
 A continuación un ejemplo de un programa con comentarios:
 
 
-```java
+``` c#
     Program Saludo;
 
     Begin
