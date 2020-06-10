@@ -71,4 +71,4 @@ La velocidad con la que una computadora lee un programa, es imperceptible para e
 * readkey;
 
 
-* Para salir de consola solo oprime cualquier tecla.
+*Para salir de consola solo oprime cualquier tecla.*
