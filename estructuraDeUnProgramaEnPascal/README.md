@@ -47,7 +47,7 @@ En Pascal también es posible poner comentarios usando los siguientes simbolos: 
 A continuación un ejemplo de un programa con comentarios:
 
 
-```java
+```javascript
     Program Saludo;
 
     Begin
