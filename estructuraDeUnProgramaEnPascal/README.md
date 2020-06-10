@@ -11,12 +11,12 @@ Sin embargo dichas instrucciones y especificaciones deben ser colocadas en lugar
 ### Ejemplo:
 
 
-```javascript 
+```java
     //Palabra reservada = PROGRAM
     //Nombre del programa = Sumar_Numeros
 
     Program Sumar_Numeros;  //Zona de Encabezado
-    { Este programa pide al usuario dos números, los suma e imprime el resultado }
+    { este programa pide al usuario dos números, los suma e imprime el resultado }
 
     Var
         A, B, C: Integer;   //Zona de Declaraciones
@@ -47,13 +47,13 @@ En Pascal también es posible poner comentarios usando los siguientes simbolos: 
 A continuación un ejemplo de un programa con comentarios:
 
 
-```javascript
+```java
     Program Saludo;
 
     Begin
-        { Esto es un comentario }
+        { esto es un comentario }
         Write ('HOLA');
-        (* Esto también es un comentario *)
+        (* esto también es un comentario *)
     End.
 ```
 
