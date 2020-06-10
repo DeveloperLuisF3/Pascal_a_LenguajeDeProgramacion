@@ -42,7 +42,7 @@ Lo que aparece entre **{** y **}** es conocido como *comentario* y no forma part
 
 Los comentarios sirven para indicar el propósito del programa, el autor, la fecha de creación, los requerimientos, aclarar instrucciones, etc.
 
-En Pascal también es posible poner comentarios usando los siguientes simbolos: *** (*y*) ***.
+En Pascal también es posible poner comentarios usando los siguientes simbolos: **(*y*)**.
 
 A continuación un ejemplo de un programa con comentarios:
 
