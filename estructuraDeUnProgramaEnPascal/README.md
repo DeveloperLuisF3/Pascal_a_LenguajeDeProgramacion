@@ -42,7 +42,7 @@ Lo que aparece entre **{** y **}** es conocido como *comentario* y no forma part
 
 Los comentarios sirven para indicar el propósito del programa, el autor, la fecha de creación, los requerimientos, aclarar instrucciones, etc.
 
-En Pascal también es posible poner comentarios usando los siguientes simbolos: (* y *).
+En Pascal también es posible poner comentarios usando los siguientes símbolos: (* y *).
 
 A continuación un ejemplo de un programa con comentarios:
 
@@ -50,11 +50,25 @@ A continuación un ejemplo de un programa con comentarios:
 ```pascal
 Program Saludo;
 
+uses crt;
+
 Begin
+    clrscr;
     { esto es un comentario }
     Write ('HOLA');
     (* esto también es un comentario *)
+    readkey;
 End.
 ```
 
 Este programa sólo imprimirá HOLA. Las líneas que dicen ser comentarios serán ignoradas. 
+
+
+La velocidad con la que una computadora lee un programa, es imperceptible para el ojo humano, debido a que es demasiado rápido, en este programa, utilizaremos las siguientes líneas de código para poder visualizar el mensaje en consola, estas líneas se estudiarán a profundidad más adelante:
+
+* uses crt;
+* clrscr;
+* readkey;
+
+
+* Para salir de consola solo oprime cualquier tecla.
