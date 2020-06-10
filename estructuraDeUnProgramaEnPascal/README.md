@@ -11,7 +11,7 @@ Sin embargo dichas instrucciones y especificaciones deben ser colocadas en lugar
 ### Ejemplo:
 
 
-```c#
+```pascal
     //Palabra reservada = PROGRAM
     //Nombre del programa = Sumar_Numeros
 
