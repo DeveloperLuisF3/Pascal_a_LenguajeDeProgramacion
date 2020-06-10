@@ -9,7 +9,9 @@ Sin embargo dichas instrucciones y especificaciones deben ser colocadas en lugar
 3. Cuerpo del módulo.
 
 
-|           Palabra reservada = PROGRAM br                              |
+|           Palabra reservada = PROGRAM
+
+                              |
 |           Nombre del programa = Sumar_Numeros                         |
 |-----------------------------------------------------------------------|
 |   Program Sumar_Numeros;                          |                   |                  
