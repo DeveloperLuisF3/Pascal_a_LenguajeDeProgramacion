@@ -64,7 +64,7 @@ End.
 Este programa sólo imprimirá HOLA. Las líneas que dicen ser comentarios serán ignoradas. 
 
 
-La velocidad con la que una computadora lee un programa, es imperceptible para el ojo humano, debido a que es demasiado rápido, en este programa, utilizaremos las siguientes líneas de código para poder visualizar el mensaje en consola, estas líneas se estudiarán a profundidad más adelante:
+La velocidad con la que una computadora lee un programa, es imperceptible para el ojo humano, debido a que es demasiado rápido, en este programa, utilizaremos las siguientes líneas de código para poder visualizar el mensaje en consola, ya que en ningún momento estamos indicando al programa que nos muestre un mensaje, estas líneas se estudiarán a profundidad más adelante:
 
 * uses crt;
 * clrscr;
