@@ -34,4 +34,4 @@ Debido a que las computadoras tienen sus limitaciones no es posible almacenar n�
 |    REAL   |      2.9e-39      |       1.7e38      |
 |  BOOLEAN  |       FALSE       |        TRUE       |
 |    CHAR   | Carácter Ascií 0  | Carácter Ascií 255|
-    STRING  |    0 Caracteres   |   255 Caracteres  |
+|   STRING  |    0 Caracteres   |   255 Caracteres  |
