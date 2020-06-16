@@ -38,43 +38,48 @@ Debido a que las computadoras tienen sus limitaciones no es posible almacenar n�
 
 
 ## Variables
+
 Una **varaiable** es un espacio en la memoria de la computadora donde es posible almacenar un dato. En Pascal es necesario especificar con claridad qué variables se usarán en el programa (antes de usarlas) y qué tipo de información se guardará en esos espacios.
 
 Las variables requeridas se especifican dentro de la zona de declaraciones, en la sección identificada por **var**. Ejemplo:
 
-````pascal
-    Var
-        Contador : Integer;
-        Precio : Real;
-        esta_lloviendo : Boolean;
-        OPCION : Char;
-        nombre : String;
-        A, B, C : Integer;
+```pascal
+Var
+    Contador : Integer;
+    Precio : Real;
+    esta_lloviendo : Boolean;
+    OPCION : Char;
+    nombre : String;
+    A, B, C : Integer;
+End.
 ```
 
 El valor que le corresponda a una variable será asignado dentro del cuerpo del módulo.
 
+
 ```pascal
-    Begin
-        Contador := 0; {Contador guardará un 0}
-        Precio := 1520.12; {Precio guardará 1,520.12}
-        esta_lloviendo := FALSE; {Está_lloviendo es falso}
+Begin
+    Contador := 0; {Contador guardará un 0}
+    Precio := 1520.12; {Precio guardará 1,520.12}
+    esta_lloviendo := FALSE; {Está_lloviendo es falso}
 
-        OPCION := 'A'; {OPCION guardará la letra A}
-        nombre := 'Pedro López';
+    OPCION := 'A'; {OPCION guardará la letra A}
+    nombre := 'Pedro López';
 
-        Read (A, B); {Leer el valor desde el teclado}
-        C := A + B; {El valor de C será de A + B}
-    End.        
+    Read (A, B); {Leer el valor desde el teclado}
+    C := A + B; {El valor de C será de A + B}
+End.        
 ```
 
 El tipo **STRING** puede guardar hasta 255 caracteres, sin embargo algunas varibles necesitan menos caracteres (un nombre de persona no suele requerir más de 10). Para evitar el desperdicio de memoria podemos limitar el máximo de caracteres que se puedan almacenar en una variable de tipo STRING como vemos en este ejemplo.
 
+
 ```pascal
-    Var
-        Nombre : String [10]; {Máximo 10 caracteres}
-        Telefono : String [7]; {Máximo 7 caracteres}
-        st4 : String [4]; {Máximo 4 caracteres}
+Var
+    Nombre : String [10]; {Máximo 10 caracteres}
+    Telefono : String [7]; {Máximo 7 caracteres}
+    st4 : String [4]; {Máximo 4 caracteres}
+End.
 ```
 
 Si se intenta almacenar un mensaje cuyo tamaño sea mayor al permitido por la variable, los caracteres sobrantes se perderán. Por ejemplo, **st4 := 'CADENA';** sólo guardará 'CADE'.
