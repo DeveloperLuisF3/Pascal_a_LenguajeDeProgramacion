@@ -17,7 +17,7 @@ Es útil para los resultados de una condición; por ejemplo ¿5 > 6? da un valor
 
 El tipo **CHAR** es utilizado para manejar una letra, un símbolo o un número. En Pascal siempre se encierran los caracteres entre comillas sencillas. por ejemplo: 'A', 'm', '9', '?', '!', '#', 'é', y todos los demás.
 
-El tipo **STRING** se utiliza para *cadenas de caracteres*, es decir mensajes o nombres. En Pascal siempre se encierran entre comillas sencillas.Algunos ejemplos son: 'Juan López', 'Hola', '¿Cómo estás?, 'COMMAND.COM'.
+El tipo **STRING** se utiliza para *cadenas de caracteres*, es decir mensajes o nombres. En Pascal siempre se encierran entre comillas sencillas. Algunos ejemplos son: 'Juan López', 'Hola', '¿Cómo estás?, 'COMMAND.COM'.
 
 Los datos de tipo **STRING** pueden tener un máximo de 255 caracteres y un mínimo de cero. Una cadena con cero caracteres se llama *cadena vacía* y se representa con dos comillas seguidas ("").
 
@@ -26,3 +26,12 @@ Para concluir cabe mencionar que los programas en Pascal no hacen diferencia ent
 ## Rango de los tipos
 
 Debido a que las computadoras tienen sus limitaciones no es posible almacenar números de cualquier tamaño, por ello, todos los tipos tienen un rango de valores válidos, es decir, si se trata de guardar un número fuera de ese rango de producirá un error. En la siguiente tabla se muestra el rango de los tipos básicos. 
+
+
+|   Tipo    |   Valor mínimo    |   Valor máximo    |
+|-----------|:-----------------:|------------------:|
+|  INTEGER  |      -32768       |       +32767      |
+|    REAL   |      2.9e-39      |       1.7e38      |
+|  BOOLEAN  |       FALSE       |        TRUE       |
+|    CHAR   | Carácter Ascií 0  | Carácter Ascií 255|
+    STRING  |    0 Caracteres   |   255 Caracteres  |
