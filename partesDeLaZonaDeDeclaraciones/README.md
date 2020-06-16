@@ -85,3 +85,40 @@ End.
 Si se intenta almacenar un mensaje cuyo tamaño sea mayor al permitido por la variable, los caracteres sobrantes se perderán. Por ejemplo, **st4 := 'CADENA';** sólo guardará 'CADE'.
 
 Es muy importante que al asignar valor a una variable éste corresponda al tipo de la misma. A continuación una serie de asignaciones con errores y aciertos:
+
+
+```pascal
+    Var
+        A, B : Integer;
+        C : Real;
+        D : Boolean;
+        E : String [30];
+        Z : Char;
+
+    Begin
+        Z := '3';
+    
+    {1} A := C + B;   {ERROR!}
+    {2} Z := A + B;   {ERROR!}
+    {3} E := 'Hola' + Z;  {CORRECTO!}
+    {4} D := (A + B);   {ERROR!}
+    {5} B := B * 2 + A;  {CORRECTO!}
+    {6} E := Z;  {ERROR!}  
+    {7} D := A > B;  {CORRECTO!}
+    End.
+```
+
+
+La línea {1} es errónea porque el resultado de la suma **C + B** es un real (porque **C** es de tipo **REAL**) y la variable **A** es de tipo **INTEGER**.
+
+La línea {2} es errónea porque el resultado de la suma **A + B** es un entero y la variable **Z** es de tipo **CHAR**.
+
+La línea {3} es correcta porque **Z** es un carácter que se concatena con una cadena.
+
+La línea {4} es errónea porque el resultado de la suma **A + B** es un entero y la variable **D** es de tipo **BOOLEAN**.
+ 
+La linea {5} es correcta porque el resultado de la operación **B * 2 + A** continúa como entero y se asigna una variable de tipo **INTEGER**.
+
+La línea {6} es errónea porque se trata de guardar toda una cadena con el espacio de un sólo carácter.
+
+La línea {7} es correcta porque el resultado de comparar **A > B** es booleano (cierto o falso) y la variable **D** es de tipo **BOOLEAN**.
