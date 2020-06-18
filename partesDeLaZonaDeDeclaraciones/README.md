@@ -122,3 +122,49 @@ La linea {5} es correcta porque el resultado de la operación **B * 2 + A** cont
 La línea {6} es errónea porque se trata de guardar toda una cadena con el espacio de un sólo carácter.
 
 La línea {7} es correcta porque el resultado de comparar **A > B** es booleano (cierto o falso) y la variable **D** es de tipo **BOOLEAN**.
+
+
+## Constantes
+
+Es un identificador que sustituye a un valor que no varía con el tiempo.
+
+En Pascal es necesario especificar claramente que constantes se usarán en el programa (antes de usarles) y cúal será su equivalencia.
+
+Las constantes requeridas se especifican dentro de la zona de declaraciones, en la sección identificada con **CONST**. Ejemplo:
+
+
+```pascal
+    Const
+        INSTITUCION = 'ESCUELA NACIONAL PREPARATORIA';
+        COSTO_PERIODICO = 1500.0;
+        VERDADERO = TRUE;
+        ADMIRACION = '!';
+        LONGITUD = 100;   
+```
+
+
+El valor de las constantes se utilizarán dentro del cuerpo del módulo.
+
+
+```pascal
+    Begin 
+        WriteLn (institucion);
+        WriteLn (LONGITUD * LONGITUD);
+    End.
+```
+
+
+El ejemplo anterior imprimirá:
+
+    ESCUELA NACIONAL PREPARATORIA
+            1000
+
+
+El siguiente ejemplo mostrará un error pues dentro del cuerpo del módulo no se puede cambiar el valor a una constante.
+
+
+```pascal
+    Begin
+        VERDADERO := FALSE;
+    End.
+```
