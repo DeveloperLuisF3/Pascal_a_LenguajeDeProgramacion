@@ -168,3 +168,15 @@ El siguiente ejemplo mostrará un error pues dentro del cuerpo del módulo no se
         VERDADERO := FALSE;
     End.
 ```
+
+
+## * Otras declaraciones
+
+Dentro de la zona de declaraciones también se pueden declarar los siguientes elementos.
+
+1. Tipos de datos definidos por el usuario dentro de la sección **TYPE**.
+2. Módulos dentro de la sección **PROCEDURE**.
+3. Funciones definidas por el usuario dentro de la sección **FUNCTION**.
+
+
+Respecto a estas declaraciones profundizaremos más adelante dentro del texto.
