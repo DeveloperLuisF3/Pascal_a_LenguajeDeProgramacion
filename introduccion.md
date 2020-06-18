@@ -11,3 +11,5 @@ Pascal posee varias características que lo hacen muy apto para la enseñanza y 
 * Recursividad: Pascal permite la recursividad, es decir, la capacidad para definir un módulo en términos de sí mismo.
 
 La Universidad de California en San Diego (USDC) realizó algunas mejoras al lenguaje. La compañía Borland desarrolló una versión del lenguaje para computadoras personales (llamada Turbo Pascal).
+
+Que ha adquirido gran popularidad y que utiizaremos en este tutorial.
