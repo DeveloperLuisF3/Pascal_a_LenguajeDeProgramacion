@@ -30,6 +30,7 @@ A continuación mostramos el uso del **WRITE** y **WRITELN**.
 ```
 
 El programa anterior imprimirá:
+
     Hola3010Resultado: 20
 
 Para evitar que todas las impresiones aparezcan juntas podemos modificar el programa de la siguiente forma:
@@ -49,6 +50,7 @@ Para evitar que todas las impresiones aparezcan juntas podemos modificar el prog
 ```
 
 El programa anterior imprimirá:
+
         Hola
          30
          10
