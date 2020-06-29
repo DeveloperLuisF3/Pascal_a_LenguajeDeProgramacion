@@ -2,6 +2,7 @@
 
 Las **rutinas de entrada o salida** de datos son instrucciones que le permiten al programa comunicarse con el usuario mediante la instrucción de información o el envío de resultados.
 
+
 ## Rutina de salida
 
 La instrucción que permite escribir datos y menajes en la pantalla es **WRITE** con su variante **WRITELN**.    
@@ -13,7 +14,7 @@ Para utilizar  **WRITE** tenga en cuenta los siguientes puntos:
 3. Para imprimir, con una misma instrucción **WRITE**, mensajes y variables, o varias variables, separar con comas (,).
 4. Para imprimir un dato y bajar el cursor a la siguiente línea use **WRITELN**.
 
-A continuación mostramos el uso del **WRITE** y **WRITELN**.
+A continuación un ejemplo del uso de **WRITE** y **WRITELN**.
 
 
 ```pascal
@@ -22,7 +23,7 @@ A continuación mostramos el uso del **WRITE** y **WRITELN**.
         A : Integer;
     Begin
         A := 10;
-        Write ('Hola);
+        Write ('Hola');
         Write (6 * 5);
         Write (A); 
         Write ('Resultado: ', 2 * A);
@@ -55,3 +56,67 @@ El programa anterior imprimirá:
          30
          10
     Resultado: 20
+
+
+## Salida formateada
+
+Se conoce como *formato de salida* al aspecto que presentarán los datos una vez impresos. En Pascal hay dos posibilidades de modificación: alterar la cantidad de decimales de un número real o la cantidad de espacio mínimo para escribir todas las cifras de un número o los símbolos de una cadena.
+
+Este control se logra agregando el modificador dos puntos (**:**) a los datos que imprimirá la instrucción **WRITE**.
+
+
+### * Formateo de campos decimales
+
+Este formateo permite controlar la cantidad de cifras decimales con las que un número será desplegado en pantalla. Ejemplo:
+
+
+```pascal
+    Program FormateoDecimal;
+    Var
+        r : Real;
+    Begin
+        r := 5.715;
+        writeln (r:0:0);    { ===> 6 }
+        writeln (r:0:1);    { ===> 5.7 }
+        writeln (r:0:2);    { ===> 5.71 }
+        writeln (r:0:3);    { ===> 5.715 }
+        writeln (r:0:4);    { ===> 5.7150 }
+    End.
+```
+
+
+A continuación un ejemplo de un caso comúm donde apreciamos la necesidad de formatear la impresión de números.
+
+
+```pascal
+    Program AreaDelCirculo;
+    { Este programa calcula el área de un círculo de radio 35 }
+    Var
+        Area, Radio: Real;
+    Begin
+        Radio := 35;
+        Area := PI * Radio * Radio; { PI es una constante predifinida }
+        Write (Area);   { Cuyo valor es de 3.14159... }
+    End.
+```
+
+
+El programa anterior escribirá:      3.848445100E03 
+
+
+Este mismo programa imprimirá algo más legible si lo modificamos. Ejemplo:
+
+
+````pascal
+    Program AreaDelCirculo_II;
+    Var
+        Area, Radio : Real;
+    Begin
+        Radio := 35;
+        Area := PI * Radio * Radio;
+        Write (Area:0:2);
+    End.
+```
+
+
+El programa anterior escribirá:     3848.45
