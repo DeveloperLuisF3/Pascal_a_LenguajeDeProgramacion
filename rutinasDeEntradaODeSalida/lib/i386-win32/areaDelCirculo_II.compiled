@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\FPC\2.6.4\bin\i386-Win32\fpc.exe" Date="1147568783"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FuC:\Users\lfgot\Desktop\Pascal\icel\fundamentos\Pascal_a_LenguajeDeProgramacion\rutinasDeEntradaODeSalida\ -FUC:\Users\lfgot\Desktop\Pascal\icel\fundamentos\Pascal_a_LenguajeDeProgramacion\rutinasDeEntradaODeSalida\lib\i386-win32\ -FEC:\Users\lfgot\Desktop\Pascal\icel\fundamentos\Pascal_a_LenguajeDeProgramacion\rutinasDeEntradaODeSalida\ -oC:\Users\lfgot\Desktop\Pascal\icel\fundamentos\Pascal_a_LenguajeDeProgramacion\rutinasDeEntradaODeSalida\areaDelCirculo_II.exe areaDelCirculo_II.pas"/>
+</CONFIG>
