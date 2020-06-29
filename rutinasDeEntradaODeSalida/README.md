@@ -107,7 +107,7 @@ El programa anterior escribirá:      3.848445100E03
 Este mismo programa imprimirá algo más legible si lo modificamos. Ejemplo:
 
 
-````pascal
+```pascal
     Program AreaDelCirculo_II;
     Var
         Area, Radio : Real;
