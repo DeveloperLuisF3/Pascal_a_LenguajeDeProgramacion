@@ -120,3 +120,23 @@ Este mismo programa imprimirá algo más legible si lo modificamos. Ejemplo:
 
 
 El programa anterior escribirá:     3848.45
+
+### * Formateo de campos enteros
+
+Este formateo permite controlar el espacio necesario para las cifras enteras de un número que será desplegado en pantalla. Ejemplo:
+
+```pascal
+    Program FormateoEntero;
+    Var
+        r : Real;
+    Begin
+        r := 5.715;
+        writeln (r:0:2);    { ===> 5.71 }
+        writeln (r:4:2);    { ===> 5.71 }
+        writeln (r:5:2);    { ===>  5.71 }
+        writeln (r:6:2);    { ===>   5.71 }
+        writeln (r:7:2);    { ===>    5.71 }
+    End.
+```
+
+Este formateo es muy útil para impresión de tablas de datos.
