@@ -156,6 +156,6 @@ Este formateo permite controlar el espacio mínimo necesario para desplegar en l
         writeln (st:5);         { ===>  HOLA }
         writeln (st:6);         { ===>   HOLA }
         writeln (st:7);         { ===>    HOLA }
-        writeln ('ADIOS':6);    { ===>   ADIOS }
+        writeln ('ADIOS':6);    { ===>  ADIOS }
     End.
 ```
