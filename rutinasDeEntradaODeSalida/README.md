@@ -140,3 +140,22 @@ Este formateo permite controlar el espacio necesario para las cifras enteras de 
 ```
 
 Este formateo es muy útil para impresión de tablas de datos.
+
+### * Formateo de campos para cadenas
+
+Este formateo permite controlar el espacio mínimo necesario para desplegar en la pantalla los caracteres de una cadena. Ejemplo:
+
+```pascal
+    Program FormateoCadena;
+    Var
+        st : String;
+    Begin
+        st := 'HOLA';
+        writeln (st:3);         { ===> HOLA }
+        writeln (st:4);         { ===> HOLA }
+        writeln (st:5);         { ===>  HOLA }
+        writeln (st:6);         { ===>   HOLA }
+        writeln (st:7);         { ===>    HOLA }
+        writeln ('ADIOS':6);    { ===>   ADIOS }
+    End.
+```
