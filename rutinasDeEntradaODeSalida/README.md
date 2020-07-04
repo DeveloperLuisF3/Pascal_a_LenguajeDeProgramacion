@@ -5,7 +5,7 @@ Las **rutinas de entrada o salida** de datos son instrucciones que le permiten a
 
 ## Rutina de salida
 
-La instrucción que permite escribir datos y menajes en la pantalla es **WRITE** con su variante **WRITELN**.    
+La instrucción que permite escribir datos y mensajes en la pantalla es **WRITE** con su variante **WRITELN**.    
 
 Para utilizar  **WRITE** tenga en cuenta los siguientes puntos:
 
@@ -101,7 +101,8 @@ A continuación un ejemplo de un caso comúm donde apreciamos la necesidad de fo
 ```
 
 
-El programa anterior escribirá:      3.848445100E03 
+El programa anterior escribirá:      
+    3.848445100E03 
 
 
 Este mismo programa imprimirá algo más legible si lo modificamos. Ejemplo:
@@ -119,7 +120,8 @@ Este mismo programa imprimirá algo más legible si lo modificamos. Ejemplo:
 ```
 
 
-El programa anterior escribirá:     3848.45
+El programa anterior escribirá:     
+    3848.45
 
 ### * Formateo de campos enteros
 
@@ -169,7 +171,7 @@ La instrucción **READ** suspenderá la ejecución del programa y esperará a qu
 Para utilizar **READ** tenga en cuenta los siguientes puntos:
 
 1. El valor introducido y la variable deberán ser del mismo tipo.
-2. No pueden ir comillas (mensajes) en el interiorde los paréntesis.
+2. No pueden ir comillas (mensajes) en el interior de los paréntesis.
 3. Ocupa **READLN** siempre que la variable sea de tipo **STRING**.
 4. Se recomienda sólo leer una variable por cada **READ**, aunque es posible leer varias variables separadas por comas.
 5. Es muy conveniente enviar un mensaje (con **WRITE**) antes de hacer un **READ**, esto sirve para indicar qué tipo de información se solicita.
@@ -196,3 +198,19 @@ Al ejecutarse este programa deberemos introducir algún número. Para este ejemp
             El área es 3848.45
 
 ![area del círculo img](../img/areaDelCirculo.jpg "Area del círculo")
+
+```pascal
+    Program Saludo;
+    Var
+        Nombre : String;
+    Begin
+        WriteLn ('Escriba su nombre: ');
+        ReadLn (Nombre);
+        WriteLn ('Hola ', Nombre);
+    End.
+```
+
+Al ejecutarse este programa deberemos introducir algún nombre. Para este ejemplo se eligió 'Pedro'. En la pantalla se observará lo siguiente:
+    Escriba su nombre:
+        Pedro
+     Hola Pedro
