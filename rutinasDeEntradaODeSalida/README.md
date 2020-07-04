@@ -195,4 +195,4 @@ Al ejecutarse este programa deberemos introducir algún número. Para este ejemp
     Escriba el radio del círculo: 35
             El área es 3848.45
 
-![area del círculo img](img/areaDelCirculo.jpg "Area del círculo")
+![area del círculo img](../img/areaDelCirculo.jpg "Area del círculo")
