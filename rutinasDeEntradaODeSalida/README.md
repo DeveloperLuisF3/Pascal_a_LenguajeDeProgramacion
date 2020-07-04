@@ -2,7 +2,6 @@
 
 Las **rutinas de entrada o salida** de datos son instrucciones que le permiten al programa comunicarse con el usuario mediante la instrucción de información o el envío de resultados.
 
-
 ## Rutina de salida
 
 La instrucción que permite escribir datos y mensajes en la pantalla es **WRITE** con su variante **WRITELN**.    
@@ -15,7 +14,6 @@ Para utilizar  **WRITE** tenga en cuenta los siguientes puntos:
 4. Para imprimir un dato y bajar el cursor a la siguiente línea use **WRITELN**.
 
 A continuación un ejemplo del uso de **WRITE** y **WRITELN**.
-
 
 ```pascal
     Program EjemplosDeImpresion;
@@ -100,8 +98,8 @@ A continuación un ejemplo de un caso comúm donde apreciamos la necesidad de fo
     End.
 ```
 
+El programa anterior escribirá: 
 
-El programa anterior escribirá:      
     3.848445100E03 
 
 
@@ -120,7 +118,8 @@ Este mismo programa imprimirá algo más legible si lo modificamos. Ejemplo:
 ```
 
 
-El programa anterior escribirá:     
+El programa anterior escribirá:
+
     3848.45
 
 ### * Formateo de campos enteros
@@ -211,6 +210,7 @@ Al ejecutarse este programa deberemos introducir algún número. Para este ejemp
 ```
 
 Al ejecutarse este programa deberemos introducir algún nombre. Para este ejemplo se eligió 'Pedro'. En la pantalla se observará lo siguiente:
+
     Escriba su nombre:
         Pedro
      Hola Pedro
