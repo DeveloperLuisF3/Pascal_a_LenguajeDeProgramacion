@@ -178,7 +178,7 @@ Para utilizar **READ** tenga en cuenta los siguientes puntos:
 Ejemplo: Dos programas con el uso de READ.
 
 ```pascal
-    Program AreaDelCirculo;
+    Program AreaDelCirculo_III;
     { Este programa calcula el área
     de un círculo de radio variable }
     Var
