@@ -83,7 +83,7 @@ Este formateo permite controlar la cantidad de cifras decimales con las que un n
 ```
 
 
-A continuación un ejemplo de un caso comúm donde apreciamos la necesidad de formatear la impresión de números.
+A continuación un ejemplo de un caso común donde apreciamos la necesidad de formatear la impresión de números.
 
 
 ```pascal
