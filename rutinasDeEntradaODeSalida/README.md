@@ -159,3 +159,40 @@ Este formateo permite controlar el espacio mínimo necesario para desplegar en l
         writeln ('ADIOS':6);    { ===>  ADIOS }
     End.
 ```
+
+## Rutinas de entrada
+
+La instrucción que permite recibir datos desde el teclado es **READ** con su variante **READLN**.
+
+La instrucción **READ** suspenderá la ejecución del programa y esperará a que el usuario teclee un valor y luego oprima la tecla **ENTER**. El valor que se introduzca será almacenado en una variable. Por ejemplo: **READ (numero);**
+
+Para utilizar **READ** tenga en cuenta los siguientes puntos:
+
+1. El valor introducido y la variable deberán ser del mismo tipo.
+2. No pueden ir comillas (mensajes) en el interiorde los paréntesis.
+3. Ocupa **READLN** siempre que la variable sea de tipo **STRING**.
+4. Se recomienda sólo leer una variable por cada **READ**, aunque es posible leer varias variables separadas por comas.
+5. Es muy conveniente enviar un mensaje (con **WRITE**) antes de hacer un **READ**, esto sirve para indicar qué tipo de información se solicita.
+
+Ejemplo: Dos programas con el uso de READ.
+
+```pascal
+    Program AreaDelCirculo;
+    { Este programa calcula el área
+    de un círculo de radio variable }
+    Var
+        Area, Radio : Real;
+    Begin
+        Write ('Escriba el radio del círculo: ');
+        Read (Radio);
+        Area := PI * Radio * Radio;
+        Write ('El área es ', Area:0:2);
+    End.
+```
+
+Al ejecutarse este programa deberemos introducir algún número. Para este ejemplo se eligió un radio de 35, por lo que en la pantalla observará lo siguiente:
+
+    Escriba el radio del círculo: 35
+            El área es 3848.45
+
+![area del círculo img](img/areaDelCirculo.jpg "Area del círculo")
