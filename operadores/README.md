@@ -42,6 +42,7 @@ Los **operadores aritméticos** son los que permiten realizar las siguientes ope
 |       /       |      División         |
 |      Div      |   División entera     |
 |      Mod      |   Módulo (residuo)    |
+
 A continuación mostramos un ejemplo específico. Al final se encuentran algunas instrucciones con **WRITE**, que permiten ver qué ocurrió internamente con las variables.
 
 ```pascal
