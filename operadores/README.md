@@ -134,3 +134,67 @@ A continuación un ejemplo específico:
 ```
 
 Estos operadores son utilizados en las estructuras de programación, como se verá en el tema correspondiente.
+
+## Operadores lógicos
+
+Son los que permiten realizar operaciones descritas por la lógica matemática y actúan únicamente con valores de falso y verdadero.
+
+En Pascal se tienen los siguientes operadores lógicos:
+
+|   Operador    |   Significado |
+|---------------|:-------------:|
+|      AND      |       Y       |
+|      OR       |       O       |
+|      NOT      |       NO      |
+
+El operador **AND** produce un resultado verdadero sólo cuando sus dos operandos son verdaderos.
+
+El operador **OR** produce un resultado falso sólo cuando sus dos operandos son falsos.
+
+El operador **NOT** produce un resultado contrario al del operador.
+
+A continuación se muestran las tablas de verdad de cada operador.
+
+|      Op1      |      Op2      |       Op1 AND Op2     |
+|---------------|---------------|:---------------------:|
+|     FALSE     |     FALSE     |         FALSE         |
+|     FALSE     |     TRUE      |         FALSE         |
+|     TRUE      |     FALSE     |         FALSE         |
+|     TRUE      |     TRUE      |         TRUE          |
+
+|      Op1      |      Op2      |       Op1 OR Op2      |
+|---------------|---------------|:---------------------:|
+|    FALSE_     |    FALSE_     |         FALSE         |
+|    FALSE_     |    TRUE_      |         TRUE          |
+|    TRUE_      |    FALSE_     |         TRUE          |
+|    TRUE_      |    TRUE_      |         TRUE          |
+
+|      Op1      |       NOT Op2      |
+|---------------|:------------------:|
+|    FALSE_     |        TRUE        |
+|    TRUE_      |        FALSE       |
+
+Este tipo de operadores son utilizados al efectuar comparaciones, los ejemplos los veremos más adelante.
+
+## Jerarquía de operadores
+
+Se conoce como jerarquía o precedencia de los operadores al orden en que se efectuarán las operaciones indicadas en una expresión; es similar a la jerarquía algebraica.
+
+La jerarquía de operadores en Pascal es la siguiente:
+
+1. NOT
+3. +, -, Or
+2. *, /, Div, Mod, And
+4. =, <>, <, >, <=, >=
+
+Esta jerarquía se altera mediante el uso de paréntesis.
+
+Algunos ejemplos:
+
+* 5 + 10 * 2 / 5 + 1 = 10
+* 5 + (10 * 2) / 5 + 1 = 10
+* 5 + 10 * (2 / 5) + 1 = 10
+* (5 + 10) * 2 / 5 + 1 = 7
+* 5  + 10 * 2 / (5 + 1) = 8.33
+* (5 + 10) * 2 / (5 + 1) = 5
+
