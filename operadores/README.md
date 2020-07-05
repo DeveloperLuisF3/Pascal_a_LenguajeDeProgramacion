@@ -43,7 +43,7 @@ Los **operadores aritméticos** son los que permiten realizar las siguientes ope
 |      Div      |   División entera     |
 |      Mod      |   Módulo (residuo)    |
 
-A continuación mostramos un ejemplo específico. Al final se encuentran algunas instrucciones con **WRITE**, que permiten ver qué ocurrió internamente con las variables.
+A continuación un ejemplo específico. Al final se encuentran algunas instrucciones con **WRITE**, que permiten ver qué ocurrió internamente con las variables.
 
 ```pascal
     Program Aritmeticos;
@@ -83,7 +83,7 @@ El operador **MOD** efectúa una división y entrega como resultado el residuo o
 
 Observe que el operador **/** entrega un número de tipo **REAL**, aunque la división sea exacta. Es decir:
 
-    10 / 2 = 5.0, que es diferente de 10 DIV 2 = 5.
+    10 / 2 = 5.0, que es diferente de 10 DIV 2 = 5
 
 Un aspecto importante sobre el operador **+** es que sirve también para enlazar (concatenar) cadenas, como se ve en el siguiente programa:
 
