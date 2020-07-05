@@ -102,3 +102,35 @@ Un aspecto importante sobre el operador **+** es que sirve también para enlazar
 Este programa imprimirá:
 
     Hola, ¿Cómo estás?
+
+## Operadores de comparación
+
+Los operadores de comparación o relacionales permiten verificar la relación existente entre dos datos y entregan un resultado de cierto o falso (llamado *booleano*).
+
+En Pascal se tienen los siguientes operadores de comparación:
+
+|   Operador    |       Descripción     |   Símbolo matemático  |
+|---------------|-----------------------|:---------------------:|
+|      =        |       Igual que       |           =           |
+|      <        |       Menor que       |           <           |
+|      >        |       Mayor que       |           >           |
+|      <=       |   Menor o igual que   |           ≤           | 
+|      >=       |   Mayor o igual que   |           ≥           |
+|      <>       |      Diferente de     |           ≠           |
+
+A continuación un ejemplo específico:
+
+```pascal
+    Program Relacionales;
+    Var
+        a, c : Integer;
+        b, d : Boolean;
+    Begin 
+        a := 15;
+        c := 20;
+        b := a > b; { en b se almacenará FALSE }
+        d := a <> b;    { en d se almacenará TRUE }
+    End.
+```
+
+Estos operadores son utilizados en las estructuras de programación, como se verá en el tema correspondiente.
