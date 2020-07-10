@@ -30,8 +30,10 @@ Detalle de cada una de estas funciones.
 
 |       Función     |                           Descripción                         |       Ejemplo         |
 |-------------------|---------------------------------------------------------------|:---------------------:|
+|                   |                                                               |                       |
 |        ABS        |   La función **ABS** recibe como argumento un número, real o  |   ABS (12) = 12       |
 |                   |   entero, y devuelve ese mismo número pero sin considerar su  |   ABS (-12) = 12      |
 |                   |   signo.                                                      |                       |
+|                   |                                                               |                       |
 |       SQR         |   La función **SQR** recibe como argumento un número, real o  |   SQR (5.1) = 26.01   |
 |                   |   entero, y devuelve el cuadrado de ese número.               |   SQR (-5.1) = 26.01  |
