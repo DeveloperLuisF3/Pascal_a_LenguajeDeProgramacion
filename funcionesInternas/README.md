@@ -38,7 +38,7 @@ Detalle de cada una de estas funciones.
 |FRAC|La función **FRAC** recibe como argumento un número real y devuelve solamente la fracción decimal de ese número.|FRAC (3.33333) = 0.33333, FRAC (-0.12)|
 |TRUNC|La función **TRUNC** recibe como argumento un número real  y le trunca la parte decimal convirtiéndolo en entero.|TRUNC (3.33333) = 3, TRUNC (-0.12) = 0, TRUNC (5.0) = 5|
 |ROUND|La función **ROUND** recibe como argumento un número real y lo redondea al número entero más próximo.|ROUND (6.3) = 6, ROUND (6.8) = 7|
-|SIN|La función **SIN** calcula la función trigonomérica seno. Recibe como argumento un ángulo medido en radianes⁴ (por lo que debe ser un número real o entero).|SIN (0.7854) = 0.7071|
+|SIN|La función **SIN** calcula la función trigonomérica seno. Recibe como argumento un ángulo medido en radianes (por lo que debe ser un número real o entero).|SIN (0.7854) = 0.7071|
 |COS|La función **COS** calcula la función trigonométrica coseno. Recibe como argumento un ángulo medido en radianes (por lo que debe ser un número real o entero).|COS (0) = 1.0|
 |ARCTAN|La función **ARCTAN** calcula la inversa de la función trigonométrica tangente. Recibe como argumento un número real o entero y devuelve el ángulo correspondiente medido en radianes.|ARCTAN (1.7321) = 1.0472|
 |LN|La función **LN** recibe como argumento un número positivo, real o entero, y devuelve el logaritmo natural de ese número. Si se trata de evaluar esta función con un argumento negativo o cero se producirá un error.|LN (1) = 0, LN (2) = 0.6931, LN (-3)<---¡error!, LN (0)<---¡error!|
@@ -49,5 +49,41 @@ Detalle de cada una de estas funciones.
 |RANDOM|La función **RANDOM** genera un número al azar (aleatorio). Si no recibe argumentos, el número que se obtenga estará entre 0 y 1. Si recibe algún número **x** como argumento, el valor que se obtenga estará comprendido entre 0 y **x**-1. Es muy importante que antes de utilizar esta función coloque la instrucción **RANDOMIZE** al inicio del programa para asegurarse que sí se obtendrán números aleatorios.|RANDOM, RANDOM (12)|
 
 A continuación un programa que calcula las raíces de una ecuación cuadrática ocupando algunas de las funciones.
+
+```pascal
+    Program RaicesCuadraticas;
+    Var
+        A, B, C, X1, X2 : Real;
+    Begin
+        Write ('Escriba el coeficiente cuadrático (A): ');
+        Read (A);
+        Write ('Escriba el coeficiente lineal (B): ');
+        Read (B);
+        Write ('Escriba el término independiente (C): ');
+        Read (C);
+        X1 := (-B + SQRT (SQR(B) - 4 * A * C)) / (2 * A);
+        X2 := (-B - SQRT (SQR(B) - 4 * A * C)) / (2 * A);
+        Write ('Las raíces son:', X1:0:2, ' y ', X2:0:2);
+    End.
+```
+
+Este es otro ejemplo, un programa para tabular la función seno. Utiliza la sentencia WHILE que no hemos visto aún, pero que se encarga de repetir el cálculo de la función para varios valores.
+
+```pascal
+    Program Tabular_Seno;
+    Var
+        x, y : Real;
+    Begin
+        WriteLn ('Tabulación de la función Seno);
+        WriteLn ('x y');
+        x := 0.0;   { 0.0 valor inicial }
+        While x <= 2 * PI Do    { 6.28 es el límite de la tabulación }
+        Begin
+            y := Sin (x);   { calcular seno de x }
+            Write (x:0:2,y:6:2);    { mostrar x, y }
+            x := x + 0.1;   { incrementar x en o.1 }
+        End;
+    End.
+```
 
 *El radian es otra unidad para medir ángulos y equivale a 57.30 grados.*
