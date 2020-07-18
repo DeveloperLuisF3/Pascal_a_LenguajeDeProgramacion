@@ -29,6 +29,6 @@ Pascal es un lenguaje muy versátil y sus características son adecuadas para em
     * Jerarquía de operadores
 6. Funciones internas
 7. Estructuras de programación
+    * Estructuras booleanas
+    * Bloques de instrucciones
 8. Módulos
-
-
