@@ -1,0 +1,64 @@
+# 7. Estructuras de programación
+
+Las **estructuras de programación**, o **estructuras de control**, son sentencias que permiten controlar el orden en que se ejecutan las instrucciones de los programas. La incorporación de estas estructuras es una de las principales características del lenguaje Pascal.
+
+Las estructuras de programación se agrupan en tres categorías:
+
+1. Bloque.
+2. Selección.
+3. Iteración.
+
+La selección y la iteración utilizan expresiones *booleanas* para poder controlar el flujo de instrucciones.
+
+## Expresiones booleanas
+
+Las **expresiones** ***booleanas*** son construcciones formadas por dos operandos relacionados mediante un operador de comparación y operadores lógicos.
+
+Por ejemplo:
+
+```pascal
+    (x > 10) AND (x < 20) -----> // significa que el valor de x es mayor que 10 y menor que 20.
+
+    (A <> B) ------> // ¿A es diferente de B?
+
+    (PERSONA = 'JUAN') OR (PERSONA = 'PEDRO') -----> // ¿La persona es Juan o es Pedro?
+```
+
+Evaluar una expresión booleana significa determinar si la condición impuesta resulta verdadera **(TRUE)** o si resulta falsa **(FALSE)**.
+
+En la vida diaria también vemos expresiones *booleanas* cuando imponemos condiciones, por ejemplo: "Si *bañas a tu perro y cortas el pasto* puedes salir a jugar", "Si *arreglas la mesa o lavas los platos* vas al cine".
+    
+## Bloque de instrucciones
+
+Es una secuencia de instrucciones que comienzan con **BEGIN** y termina con **END**.
+
+A continuación un ejemplo mediante un programa cuyo bloque contiene cuatro instrucciones.
+
+```pascal
+    Program AreaDelCirculo;
+    Var 
+        Area, Radio : Real;
+    Begin
+        Write ('Escriba el radio del círculo: ');
+        Read (Radio);
+        Area := PI * Radio * Radio;
+        Write ('El área es ', Area:0:2);
+    End.
+```
+
+El **END** que corresponde al cuerpo del módulo principal (**END** principal) debe terminar con punto (**.**). Cualquier otro **END** (no principal) debe terminar con punto y coma (**;**).
+
+Si el bloque consta de una sola instrucción se puede omitir el **BEGIN** y el **END**, por ejemplo:
+
+```pascal
+    Begin
+        Read (DIVIDENDO, DIVISOR);
+        if DIVISOR = 0 Then
+            Write ('No se puede hacer la Divición'); ------> // instrucción
+        Else
+            Begin                                   // Bloque
+                COCIENTE = DIVIDENDO / DIVISOR;     // Bloque
+                Write (Cociente);                   // Bloque
+            End;
+    End.
+```
