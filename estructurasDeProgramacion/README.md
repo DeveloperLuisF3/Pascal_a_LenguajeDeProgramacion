@@ -62,3 +62,27 @@ Si el bloque consta de una sola instrucción se puede omitir el **BEGIN** y el *
             End;
     End.
 ```
+
+## Estructura de selección
+
+La **estructura de selección** permite decidir entre bloques de instrucciones diferentes; para ello evalúa expresiones *booleanas* y considera si se cumplió (o no) la condición. En Pascal existen tres formas para indicar selección.
+
+### IF-THEN
+
+La selección **IF-THEN** se traduce como **SI-ENTONCES**. Esta selección evalúa una expresión *booleana* y de resultar verdadera ejecuta el bloque indicado después de la palabra **THEN** (de resultar falsa no lo hará).
+
+Ejemplo:
+
+```pascal
+    Program SeleccionSimple;
+    { Este programa devuelve el valor absoluto de un número }
+    Var
+        i : Integer;
+    Begin
+        Read (i);
+        IF i < 0 Then i := -i;  { Sólo cambia el signo si la }
+        Write (i);              { i es negativa }
+    End.
+```
+
+[Selección simple](../vid/seleccionSimple.mp4 "Pascal-video")
