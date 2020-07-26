@@ -1,5 +1,5 @@
-Program SeleccionSimple;
-{ Este programa hace una divisi¢n, pero verifica que el divisor sea diferente de cero }
+Program SeleccionCompleta;
+{ Este programa hace una divisiï¿½n, pero verifica que el divisor sea diferente de cero }
 uses crt;
 Var
         Dividendo, Divisor, Cociente : Real;
@@ -7,7 +7,7 @@ Begin
         clrscr;
         Read (DIVIDENDO, DIVISOR);
         If DIVISOR = 0 Then
-                Write ('No Se Puede Hacer La Divisi¢n')
+                Write ('No Se Puede Hacer La Divisiï¿½n')
         Else
                 Begin
                         COCIENTE := DIVIDENDO / DIVISOR;
