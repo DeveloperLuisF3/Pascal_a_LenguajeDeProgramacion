@@ -85,4 +85,29 @@ Ejemplo:
     End.
 ```
 
-[Selección simple](../vid/seleccionSimple.mp4 "Pascal-video")
+[Selección simple video](../vid/seleccionSimple.mp4 "Pascal-video")
+
+### IF-THEN-ELSE
+
+La selección **IF-THEN-ELSE** se traduce como **SI-ENTONCES-DE LO CONTRARIO**. Esta selección evalúa una expresión booleana y de resultar verdadera ejecutará el bloque indicado despúes de la palabra **THEN**, pero de resultar falsa ejecutará el bloque indicado despúes de la palabra **ELSE**. Ejemplo:
+
+```pascal
+    Program SeleccionCompleta;
+    { Este programa hace una división, pero verifica que el divisor sea diferente a cero }
+    Var
+        Dividendo, Divisor, Cociente : Real;
+    Begin
+        Read (DIVIDENDO, DIVISOR);
+        If DIVISOR = 0 THEN
+            Write ('No Se Puede Hacer La División)
+        Else
+            Begin
+                COCIENTE = DIVIDENDO / DIVISOR;
+                Write (Cociente);
+            End;
+    End.
+```
+
+La línea anterior a **ELSE** no lleva **;** (punto y coma). Si usted agrega el **;** se producirá un error.
+
+[Selección completa video](../vid/seleccionCompleta.mp4 "Pascal-video")
