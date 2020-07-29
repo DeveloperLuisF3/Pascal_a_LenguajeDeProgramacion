@@ -141,3 +141,5 @@ Esta selección sustituye a varios IF-THEN-ELSE en cascada, pero sólo acepta n�
         End;
     End.
 ```
+
+[menu video](../vid/menu.mp4 "Pascal-video")
