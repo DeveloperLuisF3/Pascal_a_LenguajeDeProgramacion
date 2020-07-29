@@ -114,3 +114,30 @@ La selección **IF-THEN-ELSE** se traduce como **SI-ENTONCES-DE LO CONTRARIO**. 
 La línea anterior a **ELSE** no lleva **;** (punto y coma). Si usted agrega el **;** se producirá un error.
 
 [Selección completa video](../vid/seleccionCompleta.mp4 "Pascal-video")
+
+### CASE-OF
+
+La selección **CASE-OF** se traduce como **EN CASO DE** y se usa para decidir entre varias opciones. CASE-OF requiere de una variable para compararla con una lista de opciones. De encontrar una que sea igual ejecutará el bloque indicado (si no la encuentra no efectuará ninguno de los bloques).
+
+Esta selección sustituye a varios IF-THEN-ELSE en cascada, pero sólo acepta números enteros o caracteres y no funciona para reales ni para cadenas. Ejemplo:
+
+```pascal
+    Program Menu;
+    Var
+        Opcion : Char;
+    Begin
+        WriteLn ('1) Pollo');
+        WriteLn ('2) Cordero');
+        WriteLn ('3) Pescado');
+        WriteLn ('4) Res');
+        WriteLn ('5) Ninguno');
+        Write ('Elija una opción: ');
+        ReadLn (OPCION);
+        Case OPCION OF
+        '1' : WriteLn ('Eligió Pollo');
+        '2' : WriteLn ('Eligió Cordero');
+        '3' : WriteLn ('Eligio Pescado');
+        '4' : WriteLn ('Eligió Res');
+        End;
+    End.
+```
