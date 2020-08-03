@@ -30,7 +30,7 @@ Sin embargo dichas instrucciones y especificaciones deben ser colocadas en lugar
 ``` 
 
 |Palabra reservada = PROGRAM  
-Nombre del programa = Sumar_numeros|
+Nombre del programa = Sumar_numeros|    |
 |:--------------------------------------------|:------:|
 |Program Sumar_Numeros;  
 { Este programa pide al usuario dos números,  
