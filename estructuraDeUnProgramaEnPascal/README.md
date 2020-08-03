@@ -22,28 +22,12 @@ Sin embargo dichas instrucciones y especificaciones deben ser colocadas en lugar
         A, B, C: Integer;   //Zona de Declaraciones
 
     Begin
-        Write ('Escribe dos números:');  //Cuerpo Del Módulo
-        Read (A, B); 
-        C := A + B;
-        Write ('La suma es: ', C);
+        Write ('Escribe dos números:');  // Cuerpo Del Módulo
+        Read (A, B);                     // Cuerpo Del Módulo
+        C := A + B;                      // Cuerpo Del Módulo
+        Write ('La suma es: ', C);       // Cuerpo Del Módulo
     End
 ``` 
-
-|Palabra reservada = PROGRAM  
-Nombre del programa = Sumar_numeros|    |
-|:--------------------------------------------|:------:|
-|Program Sumar_Numeros;  
-{ Este programa pide al usuario dos números,  
-los suma e imprime el resultado }|Encabezado|
-|Var  
-    A, B, C : Integer;|Declaraciones|
-|Begin  
-    Write ('Esciba dos números: ');  
-    Read (A, B);  
-    C := A + B;  
-    Write ('La suma es: ', C);|Cuerpo  
-    Del  
-    Módulo|
 
 La **zona de encabezado** es la primera línea del programa y en ella se indica el nombre o título del programa; la primera palabra debe ser **PROGRAM** seguida de un espacio y un identificador (nombre del programa) que no contenga espacios ni acentos: La línea debe terminar con **;** (punto y coma).
 
