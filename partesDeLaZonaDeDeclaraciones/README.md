@@ -159,6 +159,7 @@ El ejemplo anterior imprimirá:
     ESCUELA NACIONAL PREPARATORIA
             1000
 
+[Constantes video](../vid/constantes.mp4 "Ver Pascal-video")
 
 El siguiente ejemplo mostrará un error pues dentro del cuerpo del módulo no se puede cambiar el valor a una constante.
 
