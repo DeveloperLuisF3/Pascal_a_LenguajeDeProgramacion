@@ -59,17 +59,20 @@ El valor que le corresponda a una variable será asignado dentro del cuerpo del 
 
 ```pascal
 Begin
-    Contador := 0; {Contador guardará un 0}
-    Precio := 1520.12; {Precio guardará 1,520.12}
-    esta_lloviendo := FALSE; {Está_lloviendo es falso}
+    Contador := 0;              {Contador guardará un 0}
+    Precio := 1520.12;          {Precio guardará 1,520.12}
+    esta_lloviendo := FALSE;    {Está_lloviendo es falso}
 
-    OPCION := 'A'; {OPCION guardará la letra A}
+    OPCION := 'A';              {OPCION guardará la letra A}
     nombre := 'Pedro López';
 
-    Read (A, B); {Leer el valor desde el teclado}
-    C := A + B; {El valor de C será de A + B}
+    Read (A, B);                {Leer el valor desde el teclado}
+    C := A + B;                 {El valor de C será de A + B}
+    Write (C);                  { Escribe el valor de C }
 End.        
 ```
+
+[variables video](../vid/variables.mp4 "Ver Pascal-video")
 
 El tipo **STRING** puede guardar hasta 255 caracteres, sin embargo algunas varibles necesitan menos caracteres (un nombre de persona no suele requerir más de 10). Para evitar el desperdicio de memoria podemos limitar el máximo de caracteres que se puedan almacenar en una variable de tipo STRING como vemos en este ejemplo.
 
@@ -148,7 +151,7 @@ El valor de las constantes se utilizarán dentro del cuerpo del módulo.
 
 ```pascal
     Begin 
-        WriteLn (institucion);
+        WriteLn (INSTITUCION);
         WriteLn (LONGITUD * LONGITUD);
     End.
 ```
