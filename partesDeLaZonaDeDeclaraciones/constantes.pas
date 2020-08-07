@@ -1,13 +1,15 @@
 Program Constantes;
 uses crt;
 Const
- inst = 'escuela superior';
- costo_per = 23.00;
- long = 100;
+ INSTITUCION = 'ESCUELA NACIONAL PREPARATORIA';
+ COSTO_PERIODICO = 23.00;
+ VERDADERO = TRUE;
+ ADMIRACION = '!';
+ LONGITUD = 100;
 
 Begin
  clrscr;
- WriteLn (inst);
- WriteLn (long * long);
+ WriteLn (INSTITUCION);
+ WriteLn (LONGITUD * LONGITUD);
  readkey;
 End.
