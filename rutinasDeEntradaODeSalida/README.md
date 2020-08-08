@@ -32,6 +32,8 @@ El programa anterior imprimirá:
 
     Hola3010Resultado: 20
 
+[ejemplosDeImpresion video](../vid/ejemplosDeImpresion.mp4 "Ver Pascal-video")
+
 Para evitar que todas las impresiones aparezcan juntas podemos modificar el programa de la siguiente forma:
 
 
@@ -55,6 +57,7 @@ El programa anterior imprimirá:
          10
     Resultado: 20
 
+[ejemplosDeImpresion_II video](../vid/ejemplosDeImpresion_II.mp4 "Ver Pascal-video")
 
 ## Salida formateada
 
@@ -82,9 +85,9 @@ Este formateo permite controlar la cantidad de cifras decimales con las que un n
     End.
 ```
 
+[formateoDecimal video](../vid/formateoDecimal.mp4 "Ver Pascal-video")
 
 A continuación un ejemplo de un caso común donde apreciamos la necesidad de formatear la impresión de números.
-
 
 ```pascal
     Program AreaDelCirculo;
@@ -102,6 +105,7 @@ El programa anterior escribirá:
 
     3.848445100E03 
 
+[areaDelCirculo video](../vid/areaDelCirculo.mp4 "Ver Pascal-video")
 
 Este mismo programa imprimirá algo más legible si lo modificamos. Ejemplo:
 
@@ -117,10 +121,11 @@ Este mismo programa imprimirá algo más legible si lo modificamos. Ejemplo:
     End.
 ```
 
-
 El programa anterior escribirá:
 
     3848.45
+
+[areaDelCirculo_II video](../vid/areaDelCirculo_II.mp4 "Ver Pascal-video")
 
 ### * Formateo de campos enteros
 
@@ -142,6 +147,8 @@ Este formateo permite controlar el espacio necesario para las cifras enteras de 
 
 Este formateo es muy útil para impresión de tablas de datos.
 
+[formateoEntero video](../vid/formateoEntero.mp4 "Ver Pascal-video")
+
 ### * Formateo de campos para cadenas
 
 Este formateo permite controlar el espacio mínimo necesario para desplegar en la pantalla los caracteres de una cadena. Ejemplo:
@@ -160,6 +167,8 @@ Este formateo permite controlar el espacio mínimo necesario para desplegar en l
         writeln ('ADIOS':6);    { ===>  ADIOS }
     End.
 ```
+
+[formateoCadena video](../vid/formateoCadena.mp4 "Ver Pascal-video")
 
 ## Rutinas de entrada
 
@@ -196,10 +205,10 @@ Al ejecutarse este programa deberemos introducir algún número. Para este ejemp
     Escriba el radio del círculo: 35
             El área es 3848.45
 
-![area del círculo img](../img/areaDelCirculo.jpg "Area del círculo")
+![area del círculo_III img](../img/areaDelCirculo_III.jpg "Area del círculo")
 
 ```pascal
-    Program Saludo;
+    Program Saludo_II;
     Var
         Nombre : String;
     Begin
@@ -214,3 +223,5 @@ Al ejecutarse este programa deberemos introducir algún nombre. Para este ejempl
     Escriba su nombre:
         Pedro
      Hola Pedro
+
+[saludo_II video](../vid/saludo_II.mp4 "Ver Pascal-video")
