@@ -93,7 +93,7 @@ La selección **IF-THEN-ELSE** se traduce como **SI-ENTONCES-DE LO CONTRARIO**. 
 
 ```pascal
     Program SeleccionCompleta;
-    { Este programa hace una divisi�n, pero verifica que el divisor sea diferente de cero }
+    { Este programa hace una división, pero verifica que el divisor sea diferente de cero }
     uses crt;
     Var
             Dividendo, Divisor, Cociente : Real;
@@ -101,7 +101,7 @@ La selección **IF-THEN-ELSE** se traduce como **SI-ENTONCES-DE LO CONTRARIO**. 
             clrscr;
             Read (DIVIDENDO, DIVISOR);
             If DIVISOR = 0 Then
-                    Write ('No Se Puede Hacer La Divisi�n')
+                    Write ('No Se Puede Hacer La División')
             Else
                     Begin
                             COCIENTE := DIVIDENDO / DIVISOR;
