@@ -31,4 +31,8 @@ Pascal es un lenguaje muy versátil y sus características son adecuadas para em
 7. [Estructuras de programación](https://github.com/DeveloperLuisF3/Pascal_a_LenguajeDeProgramacion/tree/master/estructurasDeProgramacion "Ir a Estructuras de programación")
     * Estructuras booleanas
     * Bloques de instrucciones
+    * Estructura de selección
+        * * IF-THEN
+        * * IF-THEN-ELSE
+        * * CASE-OF
 8. [Módulos](https://github.com/DeveloperLuisF3/Pascal_a_LenguajeDeProgramacion/tree/master/modulos "Ir a Módulos")
