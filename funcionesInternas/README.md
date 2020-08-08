@@ -67,6 +67,8 @@ A continuación un programa que calcula las raíces de una ecuación cuadrática
     End.
 ```
 
+[raicesCuadraticas video](../vid/raicesCuadraticas.mp4 "Ver Pascal-video")
+
 Este es otro ejemplo, un programa para tabular la función seno. Utiliza la sentencia WHILE que no hemos visto aún, pero que se encarga de repetir el cálculo de la función para varios valores.
 
 ```pascal
@@ -85,5 +87,7 @@ Este es otro ejemplo, un programa para tabular la función seno. Utiliza la sent
         End;
     End.
 ```
+
+[tabular_seno video](../vid/tabular_seno.mp4 "Ver Pascal-video")
 
 *El radian es otra unidad para medir ángulos y equivale a 57.30 grados.*
