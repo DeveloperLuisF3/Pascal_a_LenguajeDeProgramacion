@@ -23,7 +23,7 @@ Los datos de tipo **STRING** pueden tener un máximo de 255 caracteres y un mín
 
 Para concluir cabe mencionar que los programas en Pascal no hacen diferencia entre mayúsculas y minúsculas, por ejemplo, la palabra **PROGRAM** es equivalente a **program**, y también equivalente a **proGRAm**. Sin embargo, en las cadenas sí existe diferencia entre mayúsculas y minúsculas, por ejemplo 'Hola' es diferente de 'HOLA'.
 
-## Rango de los tipos
+## * Rango de los tipos
 
 Debido a que las computadoras tienen sus limitaciones no es posible almacenar números de cualquier tamaño, por ello, todos los tipos tienen un rango de valores válidos, es decir, si se trata de guardar un número fuera de ese rango de producirá un error. En la siguiente tabla se muestra el rango de los tipos básicos. 
 

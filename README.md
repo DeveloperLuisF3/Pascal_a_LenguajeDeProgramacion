@@ -32,7 +32,12 @@ Pascal es un lenguaje muy versátil y sus características son adecuadas para em
     * Estructuras booleanas
     * Bloques de instrucciones
     * Estructura de selección
-        * * IF-THEN
-        * * IF-THEN-ELSE
-        * * CASE-OF
+        * IF-THEN
+        * IF-THEN-ELSE
+        * CASE-OF
+    * Estructura de iteración
+        * WHILE-DO
+        * REPEAT-UNTIL
+        * FOR-DO
+    * Anidación de estructuras
 8. [Módulos](https://github.com/DeveloperLuisF3/Pascal_a_LenguajeDeProgramacion/tree/master/modulos "Ir a Módulos")

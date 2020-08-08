@@ -67,7 +67,7 @@ Si el bloque consta de una sola instrucción se puede omitir el **BEGIN** y el *
 
 La **estructura de selección** permite decidir entre bloques de instrucciones diferentes; para ello evalúa expresiones *booleanas* y considera si se cumplió (o no) la condición. En Pascal existen tres formas para indicar selección.
 
-### IF-THEN
+### * IF-THEN
 
 La selección **IF-THEN** se traduce como **SI-ENTONCES**. Esta selección evalúa una expresión *booleana* y de resultar verdadera ejecuta el bloque indicado después de la palabra **THEN** (de resultar falsa no lo hará).
 
@@ -87,7 +87,7 @@ Ejemplo:
 
 [Selección simple video](../vid/seleccionSimple.mp4 "Pascal-video")
 
-### IF-THEN-ELSE
+### * IF-THEN-ELSE
 
 La selección **IF-THEN-ELSE** se traduce como **SI-ENTONCES-DE LO CONTRARIO**. Esta selección evalúa una expresión booleana y de resultar verdadera ejecutará el bloque indicado despúes de la palabra **THEN**, pero de resultar falsa ejecutará el bloque indicado despúes de la palabra **ELSE**. Ejemplo:
 
@@ -115,7 +115,7 @@ La línea anterior a **ELSE** no lleva **;** (punto y coma). Si usted agrega el 
 
 [Selección completa video](../vid/seleccionCompleta.mp4 "Pascal-video")
 
-### CASE-OF
+### * CASE-OF
 
 La selección **CASE-OF** se traduce como **EN CASO DE** y se usa para decidir entre varias opciones. CASE-OF requiere de una variable para compararla con una lista de opciones. De encontrar una que sea igual ejecutará el bloque indicado (si no la encuentra no efectuará ninguno de los bloques).
 
