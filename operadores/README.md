@@ -66,6 +66,8 @@ A continuación un ejemplo específico. Al final se encuentran algunas instrucci
 End.
 ```
 
+[aritmeticos video](../vid/aritmeticos.mp4 "Ver Pascal-video")
+
 Del ejemplo anterior se observará lo siguiente:
 
 El operador **/** efectúa una división  y entrega como resultado un cociente que incluye cifras decimales.
@@ -102,6 +104,8 @@ Un aspecto importante sobre el operador **+** es que sirve también para enlazar
 Este programa imprimirá:
 
     Hola, ¿Cómo estás?
+
+[concatenarCadenas video](../vid/concatenarCadenas.mp4 "Ver Pascal-video")
 
 ## Operadores de comparación
 
