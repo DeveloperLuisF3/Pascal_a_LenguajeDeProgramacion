@@ -173,3 +173,5 @@ Ejamplo:
         Write (FACTORIAL);
     End.
 ```
+
+[factorial_1 video](../vid/factorial_1.mp4 "Pascal-video")
