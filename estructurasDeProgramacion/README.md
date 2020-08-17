@@ -143,3 +143,33 @@ Esta selección sustituye a varios IF-THEN-ELSE en cascada, pero sólo acepta n�
 ```
 
 [menu video](../vid/menu.mp4 "Pascal-video")
+
+## Estructura de iteración
+
+La **estructura de iteración** o repetición permite la repetición de bloques de instrucciones.
+
+En Pascal existen tres formas para indicar repetición.
+
+### * WHILE-DO
+
+El ciclo **WHILE-DO** se traduce como **MIENTRAS-HACER**, es un ciclo indeterminado. El **WHILE-DO** evalúa una expresión *booleana* y de resultar verdadera ejecutará el bloque indicado después de la palabra **DO**. Cada vez que acabe de ejecutarse el bloque se evaluará de nuevo la condición. El ciclo se detendrá cuando el resultado de la evaluación sea falso. 
+ 
+Ejamplo:
+
+```pascal
+    Program Factorial_1;
+    { Cálculo del factorial de un número leído desde el teclado }
+    Var
+        Numero, Factorial, Contador : Integer;
+    Begin
+        Read (NUMERO);
+        FACTORIAL := 1;
+        CONTADOR := 1;
+        While CONTADOR <= NUMERO Do
+            Begin
+                FACTORIAL := FACTORIAL * CONTADOR;
+                CONTADOR := CONTADOR + 1;
+            End;
+        Write (FACTORIAL);
+    End.
+```
