@@ -204,7 +204,9 @@ Si se observa con detenimiento este ciclo es muy semejante al anterior. Sin emba
 1. La codición del **REPEAT** está *invertida* respecto del **WHILE**.
 
 El **WHILE** efectúa el ciclo si la condición es verdadera y el **REPEAT** efectúa el ciclo si la condición es falsa.
+
 2. El **REPEAT** asegura que al menos una vez se ejecutará el bloque.
+
 3. El **REPEAT** no requiere de las palabras **BEGIN** y **END** para delimitar el bloque que repetirá.
 
 [factorial_2 video](../vid/factorial_2.mp4 "Pascal-video")
