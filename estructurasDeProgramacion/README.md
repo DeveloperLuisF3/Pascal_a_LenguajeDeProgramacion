@@ -175,3 +175,36 @@ Ejamplo:
 ```
 
 [factorial_1 video](../vid/factorial_1.mp4 "Pascal-video")
+
+### * REPEAT-UNTIL
+
+El ciclo **REPEAT-UNTIL** se traduce como **REPETIR-HASTA QUE** y es un ciclo indeterminado. El **REPEAT-UNTIL** ejecuta el bloque indicado después de la palabra **REPEAT** y al finalizar evalúa una expresión *booleana*, si resulta falsa se repetirá la ejecución. El ciclo se detendrá cuando el resultado de la evaluación sea verdadero.
+
+Ejemplo:
+
+```pascal
+    Program Factorial_2;
+    { Cálculo del factorial de un número leído desde el teclado }
+    Var
+        Numero, Factorial, Contador : Integer;
+    Begin
+        Read (NUMERO);
+        FACTORIAL := 1;
+        CONTADOR := 1;
+        Repeat
+            FACTORIAL = FACTORIAL * CONTADOR;
+            CONTADOR := CONTADOR + 1;
+        Until CONTADOR > NUMERO;
+        Write (FACTORIAL);
+    End.
+```
+
+Si se observa con detenimiento este ciclo es muy semejante al anterior. Sin embargo hay algunas diferencias:
+
+1. La codición del **REPEAT** está *invertida* respecto del **WHILE**.
+
+El **WHILE** efectúa el ciclo si la condición es verdadera y el **REPEAT** efectúa el ciclo si la condición es falsa.
+2. El **REPEAT** asegura que al menos una vez se ejecutará el bloque.
+3. El **REPEAT** no requiere de las palabras **BEGIN** y **END** para delimitar el bloque que repetirá.
+
+[factorial_2 video](../vid/factorial_2.mp4 "Pascal-video")
